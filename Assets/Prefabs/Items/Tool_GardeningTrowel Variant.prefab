@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &2039100678
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582256726056599490}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.213639, y: 2.735883, z: 21.89796}
+  m_Center: {x: 0.06213277, y: 1.075121, z: -0.2084154}
+--- !u!114 &2039100677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582256726056599490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65349651e3a9e5b479bd0b95ba4fe244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSlot:
+    item: {fileID: 11400000, guid: 4d1adb5a943dff24ab156e945006b353, type: 2}
+    quantity: 1
+--- !u!1001 &348464619542692499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -806.96
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -722.37
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 419.92
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.1761832
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7854046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.25925145
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5337487
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 36.535
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.601
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2641027
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2641027
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2641027
+      objectReference: {fileID: 0}
+    - target: {fileID: -7992155725408673597, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3eb089e5b4023fe44aed2c3fad07559c, type: 2}
+    - target: {fileID: 919132149155446097, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_Name
+      value: Tool_GardeningTrowel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8827888932245295165, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c9fecba6181015e489526558dc6c63fa, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+--- !u!1 &582256726056599490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c7b20a0cab936514ea0bd86c5b24fb27, type: 3}
+  m_PrefabInstance: {fileID: 348464619542692499}
+  m_PrefabAsset: {fileID: 0}
